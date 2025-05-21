@@ -1,0 +1,97 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Jost, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: Kanit, sans-serif;
+  font-weight: 600;
+}
+
+/* Стили для модального окна */
+.ant-modal .ant-modal-content {
+  background: rgba(255, 255, 255, 0.846) !important;
+  border: 1px solid rgba(198, 187, 187, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgba(25, 25, 26, 0.37);
+  backdrop-filter: blur(8px);
+}
+
+.ant-modal .ant-modal-header {
+  background: transparent !important;
+}
+
+.ant-modal .ant-modal-body {
+  background: transparent !important;
+}
+
+.ant-modal-mask {
+  background: rgba(0, 0, 0, 0.45) !important;
+}
+
+/* Стили для Layout компонентов */
+.ant-layout-header {
+  background: #ffffff !important;
+  padding: 0 48px !important;
+  height: 64px !important;
+  line-height: 64px !important;
+  /* box-shadow: 0 8px 32px 0 rgba(25, 25, 26, 0.37); */
+}
+
+.ant-layout-sider {
+  background: #ffffff !important;
+  padding: 24px !important;
+  /* box-shadow: 0 8px 32px 0 rgba(25, 25, 26, 0.37); */
+}
+
+.ant-layout-content {
+  background: #ffffff !important;
+  padding: 24px !important;
+  min-height: calc(100vh - 64px) !important;
+  /* box-shadow: 0 8px 32px 0 rgba(25, 25, 26, 0.37); */
+}
+
+/* Стили для Select в Header */
+.ant-select {
+  border-radius: 8px !important;
+}
+
+.ant-select-selector {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(198, 187, 187, 0.3) !important;
+  box-shadow: 0 2px 8px rgba(25, 25, 26, 0.1) !important;
+}
+
+/* Стили для кнопки Add Assets */
+.ant-btn-primary {
+  background: #ffffff !important;
+  border-radius: 8px !important;
+  color: #000000 !important;
+  border: 1px solid rgba(198, 187, 187, 0.3) !important;
+    box-shadow: 0 5px 12px rgba(25, 25, 26, 0.1) !important;
+}
+
+/* Стили для List в Sider */
+.ant-list {
+  background: transparent !important;
+}
+
+.ant-list-item {
+  padding: 12px !important;
+  border-radius: 8px !important;
+  margin-bottom: 8px !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(198, 187, 187, 0.3) !important;
+  box-shadow: 0 2px 8px rgba(25, 25, 26, 0.1) !important;
+}
+
+/* Стили для Card в List */
+.ant-card {
+  border-radius: 8px !important;
+  border: 1px solid rgba(198, 187, 187, 0.3) !important;
+  box-shadow: 0 2px 8px rgba(25, 25, 26, 0.1) !important;
+}
