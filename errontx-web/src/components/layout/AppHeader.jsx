@@ -99,6 +99,11 @@ export default function AppHeader() {
             {screens.md ? "ℹ️ Информация" : "ℹ️"}
           </Button>
         </Link>
+        <Link to="/portfolio-analysis">
+          <Button type="primary" size={screens.md ? "middle" : "small"}>
+            {screens.md ? "🤖 AI Анализ" : "🤖"}
+          </Button>
+        </Link>
         <Button 
           type="primary" 
           onClick={() => setDrawer(true)}

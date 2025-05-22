@@ -155,6 +155,9 @@ export default function AnalyticsPage() {
                     <Link to="/info">
                         <Button type="primary">ℹ️ Информация</Button>
                     </Link>
+                    <Link to="/portfolio-analysis">
+                        <Button type="primary">🤖 AI Анализ</Button>
+                    </Link>
                 </Space>
             </div>
 

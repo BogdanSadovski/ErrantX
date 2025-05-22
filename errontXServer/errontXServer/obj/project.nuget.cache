@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rsotb5bpsz0=",
+  "dgSpecHash": "G4yht2WO4X8=",
   "success": true,
-  "projectFilePath": "/Users/bogdan./Documents/учеба/УП по программированию/errontXServer/errontXServer/errontXServer.csproj",
+  "projectFilePath": "/Users/bogdan./Documents/учеба/УП по программированию/ErrantX/errontXServer/errontXServer/errontXServer.csproj",
   "expectedPackageFiles": [
     "/Users/bogdan./.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/bogdan./.nuget/packages/microsoft.aspnetcore.openapi/8.0.10/microsoft.aspnetcore.openapi.8.0.10.nupkg.sha512",

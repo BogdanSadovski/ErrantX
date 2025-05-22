@@ -39,3 +39,105 @@
 .read-the-docs {
   color: #888;
 }
+
+.portfolio-analysis {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.analysis-container {
+  background: transparent;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+}
+
+.analysis-section {
+  margin-bottom: 2rem;
+}
+
+.analysis-section h2 {
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.analysis-content {
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Анимации для карточек */
+.analysis-container .ant-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.analysis-container .ant-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* Стили для прогресс-баров */
+.ant-progress-text {
+  font-weight: 500 !important;
+}
+
+/* Стили для кнопок */
+.ant-btn {
+  transition: all 0.3s ease !important;
+}
+
+.ant-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для текстовых полей */
+.ant-input {
+  transition: all 0.3s ease !important;
+}
+
+.ant-input:hover,
+.ant-input:focus {
+  border-color: #1890ff !important;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.1) !important;
+}
+
+/* Стили для заголовков */
+.ant-typography {
+  color: #1a1a1a;
+}
+
+/* Стили для списков */
+.prose ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.prose li {
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.prose li:before {
+  content: "•";
+  color: #1890ff;
+  position: absolute;
+  left: 0;
+  font-weight: bold;
+}
+
+/* Стили для анимации загрузки */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}

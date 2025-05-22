@@ -15,6 +15,7 @@ import AnalyticsPage from './pages/AnalyticsPage';
 import TaxesPage from './pages/TaxesPage';
 import InfoPage from './pages/InfoPage';
 import FreeMoneyPage from './pages/FreeMoneyPage';
+import PortfolioAnalysis from './pages/PortfolioAnalysis';
 
 
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/taxes" element={<TaxesPage/>}/>
         <Route path="/info" element={<InfoPage/>}/>
         <Route path="/free-money" element={<FreeMoneyPage/>}/>
+        <Route path="/portfolio-analysis" element={<PortfolioAnalysis/>}/>
         <Route path="" element={<AppLayout />}/>
         </Routes>
       </CryptoContextProvider>

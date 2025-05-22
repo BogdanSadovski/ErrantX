@@ -53,6 +53,9 @@ export default function InfoPage() {
                     <Link to="/taxes">
                         <Button type="primary">💰 Налоги</Button>
                     </Link>
+                    <Link to="/portfolio-analysis">
+                        <Button type="primary">🤖 AI Анализ</Button>
+                    </Link>
                 </Space>
             </div>
 

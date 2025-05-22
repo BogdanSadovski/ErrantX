@@ -172,7 +172,7 @@ export default function TaxesPage() {
     return (
         <Content style={contentStyle}>
             <div style={headerStyle}>
-                <Title level={2} style={{ margin: 0 }}>Налоговая информация</Title>
+                <Title level={2} style={{ margin: 0 }}>Налоговая аналитика</Title>
                 <Space>
                     <Link to="/">
                         <Button type="primary">🏠 Главная</Button>
@@ -182,6 +182,9 @@ export default function TaxesPage() {
                     </Link>
                     <Link to="/info">
                         <Button type="primary">ℹ️ Информация</Button>
+                    </Link>
+                    <Link to="/portfolio-analysis">
+                        <Button type="primary">🤖 AI Анализ</Button>
                     </Link>
                 </Space>
             </div>
